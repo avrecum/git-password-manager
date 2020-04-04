@@ -52,7 +52,7 @@ gpm $ set <service> <username>
 You will be asked to enter a password and repeat it.
 
 ### ls
-To list all service, type
+To list all services, type
 ```
 gpm $ ls
 ```
@@ -68,7 +68,7 @@ To change your master password, type
 gpm $ passwd
 ```
 You will be asked to enter your old password. If it matches, you'll be able to enter and confirm your new password.
-Note that if your master password has been compromised, it is best to change all your passwords since the attacker will be able to decrypt the database.
+Note that if your master password has been compromised, it is best to change all your passwords since the attacker will be able to decrypt the old database.
 ### exit
 Once you're done, type
 ```
