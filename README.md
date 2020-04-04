@@ -18,7 +18,7 @@ $ pip install requirements.txt
 ```
 Initialize the database:
 ```
-python3 gpm.py -i
+$ python gpm.py -i
 ```
 You'll be asked to enter a master password. Don't forget it! If you lose it, you will not be able to decrypt your passwords.
 
@@ -27,7 +27,7 @@ You can either add a shortcut for your terminal or access the password manager b
 Once you start gpm, you will be asked for your master password. Type it in and hit enter.
 
 Interaction with gpm happens through a command line interface.
-For every password you store, you must specify a service, e.g. "google", and a password, e.g. "example@gmail.com".
+For every password you store, you must specify a service, e.g. "google", and a username, e.g. "example@gmail.com".
 After every change, the database is re-encrypted and written to disk.
 ### copy
 To copy a password to the clipboard, type
