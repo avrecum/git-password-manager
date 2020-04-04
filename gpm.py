@@ -191,13 +191,6 @@ def cli():
 
 
 def main(args):
-    kill = False
-    if kill:
-        try:
-            os.remove("db.gpm")
-            os.remove("iv.gpm")
-        except:
-            pass
     global PASSWORD, DB
     init = True if "-i" in args else False
     try:
